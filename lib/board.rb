@@ -1,3 +1,4 @@
+
 class Board
 attr_accessor :cells
 
@@ -47,7 +48,7 @@ end
   end
 
   def update(user_input, player_token)
-    cells[user_input.to_i - 1] = player_token.token
+    cells[user_input.to_i-1] = player_token.token
   end
 
 end
